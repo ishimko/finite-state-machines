@@ -15,6 +15,9 @@ Edfmap.ini
 compile/
 *.set
 
+# Include FSM code-generation results
+!compile/*.vhd
+
 # Comment to save compilation order:
 compilation.order
 projlib.cfg

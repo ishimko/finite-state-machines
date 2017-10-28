@@ -1,0 +1,69 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=finite_state_machines
+
+[Library]
+finite_state_machines=.\finite_state_machines.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+finite_state_machines=.
+Active_lib=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+task 1=1
+task_1_TB=1
+
+[Files]
+task 1/task_1.asf=-1
+task_1_TB/task_1_tb1.do=-1
+task_1_TB/task_1_tb1.vhd=-1
+task_1_TB/task_1_tb2.do=-1
+task_1_TB/task_1_tb2.vhd=-1
+task_1_TB/task_1_tb3.do=-1
+task_1_TB/task_1_tb3.vhd=-1
+
+[Files.Data]
+.\src\task 1\task_1.asf=State Diagram
+.\src\task_1_TB\task_1_tb1.do=Macro
+.\src\task_1_TB\task_1_tb1.vhd=VHDL Test Bench
+.\src\task_1_TB\task_1_tb2.do=Macro
+.\src\task_1_TB\task_1_tb2.vhd=VHDL Test Bench
+.\src\task_1_TB\task_1_tb3.do=Macro
+.\src\task_1_TB\task_1_tb3.vhd=VHDL Test Bench
+.\compile\task_1.vhd=VHDL Source Code
+
+[file_out:task 1/task_1.asf]
+task 1/..\..\compile\task_1.vhd=-1
