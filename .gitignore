@@ -12,11 +12,11 @@ Edfmap.ini
 *.sth
 *.cmd
 *.asdbw/
-compile/
+**/compile/*
 *.set
 
 # Include FSM code-generation results
-!compile/*.vhd
+!**/compile/*.vhd
 
 # Comment to save compilation order:
 compilation.order
