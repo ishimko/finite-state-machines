@@ -38,7 +38,7 @@ Active_lib=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=
+HierarchyInformation=task_1_ent_tb1|task_1_cfg_tb1|1 task_1_ent_tb2|task_1_cfg_tb2|1 task_1_ent_tb3|task_1_cfg_tb3|1 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -63,7 +63,7 @@ task_1_TB/task_1_tb3.vhd=-1
 .\src\task_1_TB\task_1_tb2.vhd=VHDL Test Bench
 .\src\task_1_TB\task_1_tb3.do=Macro
 .\src\task_1_TB\task_1_tb3.vhd=VHDL Test Bench
-.\compile\task_1.vhd=VHDL Source Code
 
 [file_out:task 1/task_1.asf]
 task 1/..\..\compile\task_1.vhd=-1
+

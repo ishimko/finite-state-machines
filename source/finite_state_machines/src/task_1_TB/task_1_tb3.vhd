@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_1_TB\task_1_tb3.vhd
--- Generated   : 10/28/17 12:10:43
+-- Generated   : 10/28/17 13:43:49
 -- From        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 1\task_1.asf
 -- By          : ASFTEST ver. v.2.1.3 build 56, August 25, 2005
 --
@@ -42,8 +42,8 @@ architecture task_1_arch_tb3 of task_1_ent_tb3 is
   procedure WRITE_RESULTS(
     constant  CLK : in Std_logic;
     constant  RST : in Std_logic;
-    constant  IP : in Std_logic_Vector (0 to 3);
-    constant  OP : in Std_logic_Vector (0 to 1)
+    constant  IP : in Std_logic_Vector (3 downto 0);
+    constant  OP : in Std_logic_Vector (1 downto 0)
  ) is
      variable l_out : Line;
   begin
@@ -61,19 +61,19 @@ architecture task_1_arch_tb3 of task_1_ent_tb3 is
     port(
       CLK : in Std_logic;
       RST : in Std_logic;
-      IP : in Std_logic_Vector (0 to 3);
-      OP :out Std_logic_Vector (0 to 1));
+      IP : in Std_logic_Vector (3 downto 0);
+      OP :out Std_logic_Vector (1 downto 0));
   end component; -- task_1;
 
  signal CLK : Std_logic;
  signal RST : Std_logic;
- signal IP : Std_logic_Vector (0 to 3);
- signal OP : Std_logic_Vector (0 to 1);
+ signal IP : Std_logic_Vector (3 downto 0);
+ signal OP : Std_logic_Vector (1 downto 0);
 
  signal cycle_num : Integer; -- takt number
 
 -- this signal is added for compare test simulation results only
-type test_state_type is (S0, S1, S2, S3, any_state);
+type test_state_type is (S0, S1, S2, S3, S4, any_state);
 signal  test_state : test_state_type;
 
 
@@ -203,8 +203,54 @@ begin
    wait for delay_wr_out;
    wait for delay_neg_edge; -- S0
 
+   CLK <= '0';   
+   cycle_num <= 10;          
+   wait for delay_wr_in;
+   RST <= '0';
 
- -- Test length 10
+   wait for delay_pos_edge;
+   test_state <= S1;
+   CLK <= '1';
+   wait for delay_wr_out;
+   wait for delay_neg_edge; -- S1
+
+   CLK <= '0';   
+   cycle_num <= 11;          
+   wait for delay_wr_in;
+   RST <= '0';
+   IP <= "1101";
+
+   wait for delay_pos_edge;
+   test_state <= S2;
+   CLK <= '1';
+   wait for delay_wr_out;
+   wait for delay_neg_edge; -- S2
+
+   CLK <= '0';   
+   cycle_num <= 12;          
+   wait for delay_wr_in;
+   RST <= '0';
+   IP <= "0001";
+
+   wait for delay_pos_edge;
+   test_state <= S4;
+   CLK <= '1';
+   wait for delay_wr_out;
+   wait for delay_neg_edge; -- S4
+
+   CLK <= '0';   
+   cycle_num <= 13;          
+   wait for delay_wr_in;
+   RST <= '1';
+   test_state <= S0;
+
+   wait for delay_pos_edge;
+   CLK <= '1';
+   wait for delay_wr_out;
+   wait for delay_neg_edge; -- S0
+
+
+ -- Test length 14
   wait;      -- stop simulation
  end process; -- STIMULI;
 

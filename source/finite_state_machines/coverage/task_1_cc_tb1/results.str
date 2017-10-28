@@ -51,7 +51,7 @@
 	)
 	(_template 1 H task_1_ent_tb1 task_1_arch_tb1 finite_state_machines
 		(_process 0 STIMULI 56 1)
-		(_process 1 line__144 57 1)
+		(_process 1 line__168 57 1)
 	)
 	(_template 2 H task_1 beh finite_state_machines
 		(_process 2 state_machine 58 1)

@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\compile\task_1.vhd
--- Generated   : 10/28/17 12:10:11
+-- Generated   : 10/28/17 13:44:03
 -- From        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 1\task_1.asf
 -- By          : FSM2VHDL ver. 5.0.7.2
 --
@@ -26,9 +26,9 @@ use IEEE.std_logic_unsigned.all;
 entity task_1 is 
 	port (
 		CLK: in STD_LOGIC;
-		IP: in STD_LOGIC_VECTOR (0 to 3);
+		IP: in STD_LOGIC_VECTOR (3 downto 0);
 		RST: in STD_LOGIC;
-		OP: out STD_LOGIC_VECTOR (0 to 1));
+		OP: out STD_LOGIC_VECTOR (1 downto 0));
 end task_1;
 
 architecture beh of task_1 is
