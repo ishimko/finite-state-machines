@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 --
--- Title       : No Title
+-- Title       : Task 2 (2.4)
 -- Design      : finite_state_machines
 -- Author      : User
 -- Company     : Home
 --
 -------------------------------------------------------------------------------
 --
--- File        : d:\Programming\VHDL\finite-state-machines\source\finite_state_machines\compile\task_2.vhd
--- Generated   : 10/28/17 14:54:03
--- From        : d:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf
+-- File        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\compile\task_2.vhd
+-- Generated   : 10/28/17 15:21:35
+-- From        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf
 -- By          : FSM2VHDL ver. 5.0.7.2
 --
 -------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ entity task_2 is
 		OP: out STD_LOGIC_VECTOR (1 downto 0));
 end task_2;
 
-architecture task_2_arch of task_2 is
+architecture beh of task_2 is
 
 -- SYMBOLIC ENCODED state machine: state
 type state_type is (
@@ -84,4 +84,4 @@ OP <= "00" when (state = S0) else
       "11" when (state = S4) else
       "00";
 
-end task_2_arch;
+end beh;

@@ -1,5 +1,5 @@
 #  File: 'D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2_TB\task_2_tb1.do'
-#  created: 10/28/17 14:55:17
+#  created: 10/28/17 15:23:16
 #  from: 'D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf'
 #  by ASFTEST - v.2.1.3 build 56, August 25, 2005
 

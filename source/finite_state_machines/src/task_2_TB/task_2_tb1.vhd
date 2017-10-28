@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------
 --
--- Title       : No Title
+-- Title       : Task 2 (2.4)
 -- Design      : 
 -- Author      : User
 -- Company     : Home
@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2_TB\task_2_tb1.vhd
--- Generated   : 10/28/17 14:55:17
+-- Generated   : 10/28/17 15:23:16
 -- From        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf
 -- By          : ASFTEST ver. v.2.1.3 build 56, August 25, 2005
 --
@@ -193,7 +193,7 @@ end architecture task_2_arch_tb1;
 
 configuration task_2_cfg_tb1 of task_2_ent_tb1 is
    for task_2_arch_tb1
-      for UUT : task_2  use entity work.task_2(task_2_arch);
+      for UUT : task_2  use entity work.task_2(beh);
       end for;
    end for;
 end task_2_cfg_tb1;
