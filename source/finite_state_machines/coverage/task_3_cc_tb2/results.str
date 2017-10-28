@@ -11,8 +11,8 @@
 	(_file 6 C:\Aldec\Active-HDL 9.1\VLIB\ieee/src/unsigned_p.vhd)
 	(_file 7 C:\Aldec\Active-HDL 9.1\VLIB\ieee/src/unsigned_b.vhd)
 	(_file 8 C:\Aldec\Active-HDL 9.1\VLIB\ieee/src/textio.vhd)
-	(_file 9 d:\Programming\VHDL\finite-state-machines\source\finite_state_machines/src/task_2_TB/task_2_tb1.vhd)
-	(_file 10 d:\Programming\VHDL\finite-state-machines\source\finite_state_machines/compile/task_2.vhd)
+	(_file 9 d:\Programming\VHDL\finite-state-machines\source\finite_state_machines/src/task_3_TB/task_3_tb2.vhd)
+	(_file 10 d:\Programming\VHDL\finite-state-machines\source\finite_state_machines/compile/task_3.vhd)
 )
 (_sub_templates
 	(_sub 0 H READ 1 2 _external ieee 0)
@@ -49,17 +49,17 @@
 (_templates
 	(_template 0 D Dummy top-level Dummy top-level finite_state_machines
 	)
-	(_template 1 H task_2_ent_tb1 task_2_arch_tb1 finite_state_machines
+	(_template 1 H task_3_ent_tb2 task_3_arch_tb2 finite_state_machines
 		(_process 0 STIMULI 56 1)
-		(_process 1 line__190 57 1)
+		(_process 1 line__253 57 1)
 	)
-	(_template 2 H task_2 task_2_arch finite_state_machines
+	(_template 2 H task_3 beh finite_state_machines
 		(_process 2 state_machine 58 1)
 	)
 )
 (_hierarchy
 	(_instance 0 Root
-		(_instance 1 task_2_ent_tb1
+		(_instance 1 task_3_ent_tb2
 			(_process 0 1 1)
 			(_process 1 2 1
 				(_sub 29 3 1)

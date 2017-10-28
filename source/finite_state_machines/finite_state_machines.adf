@@ -38,7 +38,7 @@ Active_lib=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=task_2_ent_tb3|task_2_cfg_tb3|1 
+HierarchyInformation=task_3_ent_tb1|task_3_cfg_tb1|1 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -47,6 +47,8 @@ task 1=1
 task_1_TB=1
 task 2=1
 task_2_TB=1
+task 3=1
+task_3_TB=1
 
 [Files]
 task 1/task_1.asf=-1
@@ -63,6 +65,13 @@ task_2_TB/task_2_tb2.do=-1
 task_2_TB/task_2_tb2.vhd=-1
 task_2_TB/task_2_tb3.do=-1
 task_2_TB/task_2_tb3.vhd=-1
+task 3/task_3.asf=-1
+task_3_TB/task_3_tb1.do=-1
+task_3_TB/task_3_tb1.vhd=-1
+task_3_TB/task_3_tb2.do=-1
+task_3_TB/task_3_tb2.vhd=-1
+task_3_TB/task_3_tb3.do=-1
+task_3_TB/task_3_tb3.vhd=-1
 
 [Files.Data]
 .\src\task 1\task_1.asf=State Diagram
@@ -79,10 +88,20 @@ task_2_TB/task_2_tb3.vhd=-1
 .\src\task_2_TB\task_2_tb2.vhd=VHDL Test Bench
 .\src\task_2_TB\task_2_tb3.do=Macro
 .\src\task_2_TB\task_2_tb3.vhd=VHDL Test Bench
+.\src\task 3\task_3.asf=State Diagram
+.\src\task_3_TB\task_3_tb1.do=Macro
+.\src\task_3_TB\task_3_tb1.vhd=VHDL Test Bench
+.\src\task_3_TB\task_3_tb2.do=Macro
+.\src\task_3_TB\task_3_tb2.vhd=VHDL Test Bench
+.\src\task_3_TB\task_3_tb3.do=Macro
+.\src\task_3_TB\task_3_tb3.vhd=VHDL Test Bench
 
 [file_out:task 1/task_1.asf]
 task 1/..\..\compile\task_1.vhd=-1
 
 [file_out:task 2/task_2.asf]
 task 2/..\..\compile\task_2.vhd=-1
+
+[file_out:task 3/task_3.asf]
+task 3/..\..\compile\task_3.vhd=-1
 
