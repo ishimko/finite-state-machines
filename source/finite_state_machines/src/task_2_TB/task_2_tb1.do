@@ -1,12 +1,12 @@
 #  File: 'D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2_TB\task_2_tb1.do'
-#  created: 10/28/17 13:52:26
-#  from: 'D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2.asf'
+#  created: 10/28/17 14:55:17
+#  from: 'D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf'
 #  by ASFTEST - v.2.1.3 build 56, August 25, 2005
 
 #
 # rebuild the project
 #
-comp "D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2.asf"
+comp "D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf"
 comp "D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2_TB\task_2_tb1.vhd"
 
 #

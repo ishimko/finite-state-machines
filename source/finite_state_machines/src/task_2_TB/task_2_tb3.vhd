@@ -8,8 +8,8 @@
 -------------------------------------------------------------------------------
 --
 -- File        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2_TB\task_2_tb3.vhd
--- Generated   : 10/28/17 13:52:26
--- From        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task_2.asf
+-- Generated   : 10/28/17 14:55:17
+-- From        : D:\Programming\VHDL\finite-state-machines\source\finite_state_machines\src\task 2\task_2.asf
 -- By          : ASFTEST ver. v.2.1.3 build 56, August 25, 2005
 --
 -------------------------------------------------------------------------------
